@@ -272,6 +272,7 @@
 		00F4C06D13F75E66003CEA60 /* KBKegTimeHostInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4C06C13F75E65003CEA60 /* KBKegTimeHostInfoViewController.m */; };
 		00F4C06E13F75E66003CEA60 /* KBKegTimeHostInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F4C06C13F75E65003CEA60 /* KBKegTimeHostInfoViewController.m */; };
 		00F4C08113F7661F003CEA60 /* FFUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 000C942813E10BAD009B1B1E /* FFUtils.m */; };
+		0552C06615E1B54200999962 /* KBServerKegsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0552C06515E1B54200999962 /* KBServerKegsViewController.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
@@ -631,6 +632,8 @@
 		00F4C06813F75DA2003CEA60 /* KBKegTimeHostInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KBKegTimeHostInfoViewController.xib; sourceTree = "<group>"; };
 		00F4C06B13F75E65003CEA60 /* KBKegTimeHostInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBKegTimeHostInfoViewController.h; sourceTree = "<group>"; };
 		00F4C06C13F75E65003CEA60 /* KBKegTimeHostInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBKegTimeHostInfoViewController.m; sourceTree = "<group>"; };
+		0552C06315E1B52500999962 /* KBServerKegsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBServerKegsViewController.h; sourceTree = "<group>"; };
+		0552C06515E1B54200999962 /* KBServerKegsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBServerKegsViewController.m; sourceTree = "<group>"; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* KegPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KegPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -1095,6 +1098,8 @@
 				00C114EE1211297D009C9B51 /* KBUsersViewController.m */,
 				00AA3F3C1255B3A600CB3F6B /* KBUserEditViewController.h */,
 				00AA3F3D1255B3A600CB3F6B /* KBUserEditViewController.m */,
+				0552C06315E1B52500999962 /* KBServerKegsViewController.h */,
+				0552C06515E1B54200999962 /* KBServerKegsViewController.m */,
 				007551831250554700C5538C /* KBSimulatorViewController.h */,
 				007551841250554700C5538C /* KBSimulatorViewController.m */,
 				007B78C3137A3BE3000F8040 /* KBAdminLoginViewController.h */,
@@ -1790,6 +1795,7 @@
 				00F4C06413F75A87003CEA60 /* FFStreamUtils.m in Sources */,
 				00F4C06613F75A87003CEA60 /* FFTCPServer.m in Sources */,
 				00F4C06D13F75E66003CEA60 /* KBKegTimeHostInfoViewController.m in Sources */,
+				0552C06615E1B54200999962 /* KBServerKegsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

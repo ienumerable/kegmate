@@ -26,7 +26,9 @@
 #import "KBDataImporter.h"
 #import "KBUIForm.h"
 #import "KBTwitterAdminViewController.h"
+#import "KBServerKegsViewController.h"
 #import "KBSettingsViewController.h"
+
 
 
 @implementation KBAdminNavigationController
@@ -54,6 +56,7 @@
     self.title = @"Admin";
     [self addForm:[KBUIForm formWithTitle:@"Beers" text:nil target:self action:@selector(showBeers) showDisclosure:YES]];
     [self addForm:[KBUIForm formWithTitle:@"Kegs" text:nil target:self action:@selector(showKegs) showDisclosure:YES]];
+    [self addForm:[KBUIForm formWithTitle:@"KegServer Kegs" text:nil target:self action:@selector(showServerKegs) showDisclosure:YES]];
     [self addForm:[KBUIForm formWithTitle:@"Users" text:nil target:self action:@selector(showUsers) showDisclosure:YES]];
     [self addForm:[KBUIForm formWithTitle:@"Twitter" text:@"Connect to twitter." target:self action:@selector(showTwitterAdmin) showDisclosure:YES]];
     [self addForm:[KBUIForm formWithTitle:@"Settings" text:@"Settings like name and admin password." target:self action:@selector(showSettings) showDisclosure:YES]];
@@ -91,6 +94,13 @@
   KBKegsViewController *kegsViewController = [[KBKegsViewController alloc] init];
   [self.navigationController pushViewController:kegsViewController animated:YES];
   [kegsViewController release];
+}
+
+
+- (void)showServerKegs {
+  KBServerKegsViewController *serverKegsViewController = [[KBServerKegsViewController alloc] init];
+  [self.navigationController pushViewController:serverKegsViewController animated:YES];
+  [serverKegsViewController release];
 }
 
 - (void)showSimulator {  

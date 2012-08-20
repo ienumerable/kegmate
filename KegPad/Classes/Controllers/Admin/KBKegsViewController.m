@@ -31,6 +31,7 @@
   if ((self = [super init])) { 
     self.title = @"Kegs";
     self.navigationItem.rightBarButtonItem = [[[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:@selector(_add)] autorelease];
+    
   }
   return self;
 }
